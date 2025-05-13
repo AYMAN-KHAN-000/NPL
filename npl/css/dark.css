@@ -1,0 +1,152 @@
+/* dark.css */
+
+/* Light Theme Variables */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --nav-bg: #f8f9fa;
+    --nav-text: #000000;
+    --link-color: #000000;
+  }
+  
+  /* Dark Theme Overrides */
+  body.dark-mode {
+    --bg-color: #0d1b2a;
+    --text-color: #e0e1dd;
+    --nav-bg: #1b263b;
+    --nav-text: #e0e1dd;
+    --link-color: #ffffff;
+  }
+  
+  /* Apply Variables */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar {
+    background-color: var(--nav-bg) !important;
+    color: var(--nav-text);
+  }
+  
+  .navbar a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: var(--link-color) !important;
+  }
+  
+  /* Light Mode Footer Styling */
+  body:not(.dark-mode) .site-footer {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .site-footer a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* Social Media Icons Styling */
+  .site-footer .social-icon-link {
+    color: #ffffff !important;
+  }
+  
+  /* Link Styling */
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  /* Toggle Button Styling */
+  #theme-toggle {
+    outline: #e0e1dd;
+    background-color: transparent;
+    border: none;
+    color: var(--nav-text);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #theme-toggle:hover {
+    color: var(--link-color);
+  }
+ form-label{
+      
+    color: var(--text-color);
+  }
+    h2{
+    
+    color: var(--text-color);
+    
+  }
+  a{
+     color: var(--text-color);
+  }
+
+  p{
+    
+    color: var(--text-color);
+
+  }
+
+  .news{
+    background-color: var(--bg-color);
+    
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .news-title-link{
+color: var(--text-color);
+  }
+  .news-title-link:hover{
+    color: var(--text-color);
+  }
+ h5,h3{
+  
+    color: var(--text-color);
+ }
+ 
+ .lol,.to{
+  color: black;
+ }
+
+
+ .concard{
+  color: var(--bg-color);
+ }
+
+    .custom-hover {
+    width: 100%;
+    background: var(--text-color); 
+    padding: 15px 100px;
+    color: var(--bg-color);
+    font-size: medium;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    
+}
+
+.custom-hover:hover {
+  border: none;
+  background-color: #ffc107; /* Bootstrap's warning color */
+}
+
+.navbar-toggler-icon,.navbar-toggler{
+  color: #f8f9fa;
+}
+
+
+ 

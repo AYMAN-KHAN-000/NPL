@@ -1,0 +1,127 @@
+
+
+
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Back Button Styling */
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .back-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Login Container Styling */
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .container button {
+    padding: 10px;
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .container button:hover {
+    background-color: #5a4cad;
+  }
+  
+  .google-login {
+    background-color: #db4437;
+  }
+  
+  .google-login:hover {
+    background-color: #c33c2f;
+  }
+  
+  .container p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .container p a {
+    color: #6a5acd;
+    text-decoration: none;
+  }
+  
+  .container p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
+
+
+
+  
